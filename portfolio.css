@@ -1,0 +1,114 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: HelveticaNeue-Thin;
+  font-size: 18px;
+  /*background: #0c2242;*/
+    background: #000;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.jumbotron {
+  border-radius: 0 !important;
+  border-bottom-left-radius: 60px !important;
+  border-bottom-right-radius: 20px !important;
+  border: 1.2px solid #f0f2f5;
+  height: 250px;
+  padding-top: 10px !important;
+  /*background-color: #e8eef7;*/
+    background-color: #2b2b2b !important;
+    color: #f0f2f5;
+}
+
+#jumbo-body.jumbotron {
+  border-radius: 0 !important;
+  border-bottom-left-radius: 60px !important;
+  border-bottom-right-radius: 20px !important;
+  border-top: none;
+  border-left: .8px solid #f0f2f5;
+  border-right: .8px solid #f0f2f5;
+  border-bottom: .8px solid #f0f2f5;
+  height: 120px;
+  padding-top: 10px !important;
+  /*background-color: #e8eef7;*/
+    background-color: lightgray !important;
+    color: #f0f2f5;
+}
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 4px;
+    border: 0;
+  }
+
+  .bgimg-2 {
+    background-image: url('atom-screen.png');
+    min-height: 600px;
+    position: relative;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .bgimg-3 {
+    background-image: url('resume_MBF.jpg');
+    background-color: #fff;
+    min-height: 800px;
+    position: relative;
+    opacity: 1.0;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  #footer-container-fluid.container-fluid {
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color:#8f9eb3;
+    padding: 70px 0px !important;
+    font-size: 13px;
+    text-align: center;
+  }
+
+#smi > li {
+  display: inline-block;
+  text-align: center;
+}
+
+#smi-div-icons {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  margin: 0 8px;
+}
+
+#smi-img-icons {
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 3px;
+}
+
+#app-img-table {
+  position: relative;
+  padding: 7px;
+  border-radius: 20px;
+  border: 1px solid #8f9eb3;
+  margin: 0 auto;
+  background-color: #000;
+}
