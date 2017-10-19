@@ -14,12 +14,34 @@ body {
   background-attachment: fixed;
 }
 
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 1px 10px;
+    clear: right;
+}
+
+#nav-anchor a {
+  color: #8f9eb3;
+}
+
+#nav-anchor a:hover {
+  color: #82bfdd;
+}
+
+ul#smi a {
+  line-height: 3.0em;
+  color: #fff;
+}
+
 .jumbotron {
   border-radius: 0 !important;
   border-bottom-left-radius: 60px !important;
   border-bottom-right-radius: 20px !important;
-  border: 1.2px solid #f0f2f5;
-  height: 250px;
+  border-left: 1.2px solid #f0f2f5;
+  border-right: 1.2px solid #f0f2f5;
+  border-bottom: 1.2px solid #f0f2f5;
+  height: 270px;
   padding-top: 10px !important;
   /*background-color: #e8eef7;*/
     background-color: #2b2b2b !important;
@@ -52,7 +74,7 @@ body {
 
   .bgimg-2 {
     background-image: url('atom-screen.png');
-    min-height: 600px;
+    min-height: 380px;
     position: relative;
     opacity: .8;
     background-attachment: fixed;
@@ -75,15 +97,29 @@ body {
 
   }
 
+  .bgimg-4 {
+    background-image: url('motion.jpg');
+    background-color: #fff;
+    min-height: 410px;
+    position: relative;
+    opacity: 1.0;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
   #footer-container-fluid.container-fluid {
     padding: 0;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 0;
     margin-right: 0;
     background-color:#8f9eb3;
     padding: 70px 0px !important;
     font-size: 13px;
     text-align: center;
+    color: #000;
   }
 
 #smi > li {
@@ -91,16 +127,13 @@ body {
   text-align: center;
 }
 
-#smi-div-icons {
+#smi-div-icons img {
   width: 50px;
   height: 50px;
   background-color: transparent;
   margin: 0 8px;
-}
-
-#smi-img-icons {
-  background-color: #fff;
   border-radius: 100%;
+  background-color: white;
   padding: 3px;
 }
 
@@ -111,4 +144,32 @@ body {
   border: 1px solid #8f9eb3;
   margin: 0 auto;
   background-color: #000;
+}
+
+@media only screen and (max-width: 1168px) {
+    .jumbotron {
+      height: 330px;
+
+  }
+}
+
+@media only screen and (max-width: 960px) {
+
+  .jumbotron {
+    height: 380px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .jumbotron {
+    height: 420px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+
+  .jumbotron {
+    height: 490px;
+  }
 }
