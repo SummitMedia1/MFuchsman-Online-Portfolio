@@ -8,7 +8,7 @@ body {
   font-size: 18px;
   /*background: #0c2242;*/
     background: #000;
-    background-image: url('background.jpg');
+    background-image: url('background-9.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   background-attachment: fixed;
@@ -44,7 +44,7 @@ ul#smi a {
   height: 270px;
   padding-top: 10px !important;
   /*background-color: #e8eef7;*/
-    background-color: #2b2b2b !important;
+    background-color: rgba(0,0,0,.2) !important;
     color: #f0f2f5;
 }
 
@@ -70,6 +70,19 @@ ul#smi a {
 .table>thead>tr>th {
     padding: 4px;
     border: 0;
+  }
+
+  .bgimg-1 {
+    background-image: url('background.jpg');
+    min-height: 380px;
+    position: relative;
+    opacity: .4;
+    background-color: #fff;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
   }
 
   .bgimg-2 {
