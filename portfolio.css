@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
   background-attachment: fixed;
+  /*overflow-x: hidden;*/
 }
 
 .nav>li>a {
@@ -42,7 +43,7 @@ ul#smi a {
   border-right: 1.2px solid #f0f2f5;
   border-bottom: 1.2px solid #f0f2f5;
   height: 270px;
-  padding-top: 10px !important;
+  padding-top: 13px !important;
   /*background-color: #e8eef7;*/
     background-color: rgba(0,0,0,.2) !important;
     color: #f0f2f5;
@@ -125,11 +126,11 @@ ul#smi a {
   }
 
   #footer-container-fluid.container-fluid {
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
     background-color:#8f9eb3;
-    padding: 0px !important;
+    padding: 0 !important;
     font-size: 13px;
     text-align: center;
     color: #000;
