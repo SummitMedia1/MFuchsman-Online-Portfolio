@@ -7,8 +7,8 @@ body {
   font-family: HelveticaNeue-Thin;
   font-size: 18px;
   /*background: #0c2242;*/
-    background: #000;
-    background-image: url('background-9.jpg');
+    background: #fff;
+    background-image: url('background-9a.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   background-attachment: fixed;
@@ -39,13 +39,13 @@ ul#smi a {
   border-radius: 0 !important;
   border-bottom-left-radius: 60px !important;
   border-bottom-right-radius: 20px !important;
-  border-left: 1.2px solid #f0f2f5;
-  border-right: 1.2px solid #f0f2f5;
-  border-bottom: 1.2px solid #f0f2f5;
+  border-left: 3px solid #f0f2f5;
+  border-right: 3px solid #f0f2f5;
+  border-bottom: 3px solid #f0f2f5;
   height: 270px;
   padding-top: 13px !important;
   /*background-color: #e8eef7;*/
-    background-color: rgba(0,0,0,.2) !important;
+    background-color: rgba(0,0,0,.75) !important;
     color: #f0f2f5;
 }
 
