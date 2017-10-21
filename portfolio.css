@@ -74,10 +74,10 @@ ul#smi a {
   }
 
   .bgimg-1 {
-    background-image: url('background.jpg');
-    min-height: 380px;
+    background-image: url('keyboard.jpg');
+    min-height: 410px;
     position: relative;
-    opacity: .4;
+    opacity: 1.0;
     background-color: #fff;
     background-attachment: fixed;
     background-position: center top;
