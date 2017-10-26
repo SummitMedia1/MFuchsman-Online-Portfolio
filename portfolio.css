@@ -17,6 +17,68 @@ body {
   /*overflow-x: hidden;*/
 }
 
+nav {
+height: 30px;
+line-height: 30px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+height: 30px;
+line-height: 30px;
+
+}
+
+nav a {
+height: 40px;
+line-height: 30px;
+
+}
+
+nav .button-collapse i {
+height: 20px;
+line-height: 30px;
+}
+
+.dropdown-content {
+min-width: 386px; /* Changed this to accomodate content width */
+min-height: 120px;
+margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+/*overflow-y: auto; /* Changed this from overflow-y:auto; to overflow:hidden; */
+overflow: hidden;
+}
+
+#footer-container-fluid.container-fluid {
+margin-top: 0;
+margin-left: 0;
+margin-right: 0;
+background-color:#8f9eb3;
+width: 100%;
+padding: 0 !important;
+font-size: 13px;
+text-align: center;
+color: #000;
+}
+
+#smi > li {
+display: inline-block;
+text-align: center;
+margin-bottom: 25px;
+line-height: 2.5em;
+font-size: 13px;
+color: #fff;
+}
+
+#smi-div-icons img {
+width: 50px;
+height: 50px;
+background-color: transparent;
+margin: 0 8px;
+border-radius: 100%;
+background-color: #fff;
+padding: 2px;
+}
+
+
 /*.nav>li>a {
     position: relative;
     display: block;
@@ -139,7 +201,7 @@ ul#smi a {
     color: #000;
   }*/
 
-#smi > li {
+/*#smi > li {
   display: inline-block;
   text-align: center;
   margin-bottom: 25px;
@@ -154,7 +216,7 @@ ul#smi a {
   border-radius: 100%;
   background-color: #fff;
   padding: 2px;
-}
+}*/
 
 /*#app-img-table {
   position: relative;
