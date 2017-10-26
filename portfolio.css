@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:800|Cinzel:400:700|Abel|Cormorant+Garamond:400i');
+/*@import url('https://fonts.googleapis.com/css?family=Oswald:800|Cinzel:400:700|Abel|Cormorant+Garamond:400i');*/
 
 * {
   -webkit-box-sizing: border-box;
@@ -6,15 +6,17 @@
 }
 
 body {
+  display: flex;
   font-family: HelveticaNeue-Thin;
   font-size: 18px;
-  /*background: #0c2242;*/
-    background: #fff;
-    background-image: url('background-9a.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 0;
+  background: #fff;
+  background-image: url('background-9a.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  /*overflow-x: hidden;*/
 }
 
 nav {
@@ -39,24 +41,12 @@ height: 20px;
 line-height: 30px;
 }
 
-.dropdown-content {
-min-width: 386px; /* Changed this to accomodate content width */
-min-height: 120px;
-margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
-/*overflow-y: auto; /* Changed this from overflow-y:auto; to overflow:hidden; */
-overflow: hidden;
-}
-
-#footer-container-fluid.container-fluid {
-margin-top: 0;
-margin-left: 0;
-margin-right: 0;
+.footer {
+position: sticky;
 background-color:#8f9eb3;
 width: 100%;
-padding: 0 !important;
 font-size: 13px;
 text-align: center;
-color: #000;
 }
 
 #smi > li {
@@ -78,11 +68,10 @@ background-color: #fff;
 padding: 2px;
 }
 
-
-/*.nav>li>a {
+nav i, nav > li > a {
     position: relative;
     display: block;
-    padding: 1px 10px;
+    padding: 1px 20px;
     clear: right;
 }
 
@@ -92,7 +81,7 @@ padding: 2px;
 
 #nav-anchor a:hover {
   color: #82bfdd;
-}
+}*/
 
 ul#smi a {
   line-height: 3.0em;
@@ -136,7 +125,7 @@ ul#smi a {
     padding: 4px;
     border: 0;
   }
-*/
+
   .bgimg-1 {
     background-image: url('keyboard.jpg');
     min-height: 410px;
@@ -189,7 +178,7 @@ ul#smi a {
 
   }
 
-  /*#footer-container-fluid.container-fluid {
+  #footer-container-fluid.container-fluid {
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -199,9 +188,9 @@ ul#smi a {
     font-size: 13px;
     text-align: center;
     color: #000;
-  }*/
+  }
 
-/*#smi > li {
+#smi > li {
   display: inline-block;
   text-align: center;
   margin-bottom: 25px;
@@ -212,20 +201,20 @@ ul#smi a {
   width: 50px;
   height: 50px;
   background-color: transparent;
-  margin: 0 8px;
+  /*margin: 0 8px;*/
   border-radius: 100%;
   background-color: #fff;
   padding: 2px;
-}*/
+}
 
-/*#app-img-table {
+#app-img-table {
   position: relative;
   padding: 7px;
   border-radius: 20px;
   border: 1px solid #8f9eb3;
   margin: 0 auto;
   background-color: #000;
-}*/
+}
 
 @media only screen and (max-width: 1168px) {
     .jumbotron {
