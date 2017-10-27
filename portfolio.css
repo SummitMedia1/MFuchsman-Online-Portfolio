@@ -24,22 +24,23 @@ height: 30px;
 line-height: 30px;
 }
 
-nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
-height: 30px;
-line-height: 30px;
+/*nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {*/
+/*height: 30px;*/
+/*line-height: 30px;*/
+/*background-color: #841a1a;*/
+/*}*/
 
-}
-
-nav a {
+/*nav a {
 height: 40px;
 line-height: 30px;
+background-color: #841a1a;
+}*/
 
-}
-
-nav .button-collapse i {
+/*nav .button-collapse i {
 height: 20px;
 line-height: 30px;
-}
+background-color: #841a1a;
+}*/
 
 .footer {
 position: sticky;
