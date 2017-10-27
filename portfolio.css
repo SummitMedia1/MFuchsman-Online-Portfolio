@@ -156,7 +156,7 @@ ul#smi a {
     background-image: url('resume_MBF.jpg');
     background-color: #fff;
     min-height: 800px;
-    position: relative;
+    position: flex;
     opacity: 1.0;
     background-attachment: fixed;
     background-position: center top;
