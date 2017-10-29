@@ -129,7 +129,7 @@ ul#smi a {
 
   .bgimg-1 {
     background-image: url('keyboard.jpg');
-    min-height: 410px;
+    min-height: 510px;
     position: relative;
     opacity: 1.0;
     background-color: #fff;
@@ -157,7 +157,6 @@ ul#smi a {
     background-image: url('resume_MBF.jpg');
     background-color: #fff;
     min-height: 800px;
-    position: flex;
     opacity: 1.0;
     background-attachment: fixed;
     background-position: center top;
@@ -169,7 +168,7 @@ ul#smi a {
   .bgimg-4 {
     background-image: url('motion.jpg');
     background-color: #fff;
-    min-height: 610px;
+    min-height: 600px;
     position: relative;
     opacity: 1.0;
     background-attachment: fixed;
@@ -180,15 +179,9 @@ ul#smi a {
   }
 
   #footer-container-fluid.container-fluid {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
     background-color:#8f9eb3;
-    width: 100%;
-    padding: 0 !important;
     font-size: 13px;
     text-align: center;
-    color: #000;
   }
 
 #smi > li {
