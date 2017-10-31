@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   padding: 0;
   background: #fff;
-  background-image: url('background-9a.jpg');
+  background-image: url('./assets/images/main-no-logo.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -127,8 +127,19 @@ ul#smi a {
     border: 0;
   }
 
+/*.topBodyBack {
+  background-image: url('keyboard.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+*/
+
+
+
+
   .bgimg-1 {
-    background-image: url('keyboard.jpg');
+    background-image: url('./assets/images/keyboard.jpg');
     min-height: 510px;
     position: relative;
     opacity: 1.0;
@@ -154,7 +165,7 @@ ul#smi a {
   }
 
   .bgimg-3 {
-    background-image: url('resume_MBF.jpg');
+    background-image: url('./assets/images/resume_MBF.jpg');
     background-color: #fff;
     min-height: 800px;
     opacity: 1.0;
@@ -166,7 +177,7 @@ ul#smi a {
   }
 
   .bgimg-4 {
-    background-image: url('motion.jpg');
+    background-image: url('./assets/images/motion.jpg');
     background-color: #fff;
     min-height: 600px;
     position: relative;
