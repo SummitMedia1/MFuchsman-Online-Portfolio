@@ -167,8 +167,10 @@ ul#smi a {
   .bgimg-3 {
     background-image: url('./assets/images/resume_MBF.jpg');
     background-color: #fff;
-    min-height: 800px;
+    min-height: 998px;
     opacity: 1.0;
+    margin-left: auto;
+    margin-right: auto;
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
