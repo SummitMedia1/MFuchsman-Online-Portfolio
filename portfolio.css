@@ -240,7 +240,23 @@ ul#smi a {
   .jumbotron {
     height: 420px;
   }
+
+#aboutDiv1,
+#aboutDiv2,
+#headerRow,
+#tableRows,
+#devCard,
+#testimonialDivContainer,
+#testimonialTextBlock1,
+#testimonialTextBlock2,
+#testimonialTextBlock3 {
+  display: inline-block !important;
+  }
+
 }
+
+
+
 
 @media only screen and (max-width: 568px) {
 
